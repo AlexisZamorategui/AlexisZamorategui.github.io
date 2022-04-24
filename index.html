@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>access quality</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/hamburguesa.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicios</a>
+            <a href="#galeria">Nuestro Trabajo</a>
+            <a href="#expertos">Especializados</a>
+            <a href="#footer">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Access Quality</h1>
+            <h1 class="titulo">LA TECNOLOGÍA ES LA SOLUCIÓN</h1>
+            <p class="copy">Tecnología eficiente aplicada al negocio</p>
+        </div>
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="img/checklist.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Ciberseguridad</h3>
+                        <p> Especialistas en ciberseguridad y seguridad de la información, evaluamos todas las vulnerabilidades.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Networking</h3>
+                        <p> Somos especialistas en soluciones de interconectividad de redes de datos y seguridad de los recursos informáticos.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>IT-Cloud</h3>
+                        <p> Brindamos soluciones de virtualización de redes, servidores, aplicaciones y escritorios para optimizar el uso de los recursos tecnológicos en su empresa.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">4</span>Data Center</h3>
+                        <p> Garantizamos una gestión simplificada, operaciones optimizadas y excelente escalabilidad en la implementación de su Data Center</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Conoce nuestro trabajo</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/Image1.jpeg" class="img-galeria" alt="">
+                    <img src="img/Image2.webp" class="img-galeria" alt="">
+                    <img src="img/Image3.avif" class="img-galeria" alt="">
+                    <img src="img/Image4.jpeg" class="img-galeria" alt="">
+                    <img src="img/Image5.jpeg" class="img-galeria" alt="">
+                    <img src="img/Image6.webp" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/security.svg" alt="">
+                    <h3 class="n-expert">Ciberseguridad</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/Networking.svg" alt="">
+                    <h3 class="n-expert">Networking</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/Cloud.svg" alt="">
+                    <h3 class="n-expert">IT-Cloud</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/pie_chart.svg" alt="">
+                    <h3 class="n-expert">Data Center</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Access Quality</h2>
+                    <p>Somos expertos en la creación de tus sueños</p>
+                </div>
+                <form action="" method="POST" id="form">
+                    <div class="form">
+                        <h1>Contacto</h1>
+                        <div class="grupo">
+                            <input type="text" name="name" id="name" required><span class="barra"></span>
+                            <label for="">Nombre</label> 
+                        </div>
+                        <div class="grupo">
+                            <input type="text" name="email" id="email" required><span class="barra"></span>
+                            <label for="">Email</label> 
+                        </div>
+                        <div class="grupo">
+                            <input type="text" name="phone" id="phone" required><span class="barra"></span>
+                            <label for="">Telefono</label> 
+                        </div>
+                        <div class="grupo">
+                            <input type="text" name="empresa" id="empresa" required><span class="barra"></span>
+                            <label for="">Empresa</label> 
+                        </div>
+                        <div class="grupo">
+                            <input type="text" name="message" id="message" required><span class="barra"></span>
+                            <label for="">Mensaje</label> 
+                        </div>
+                        <button type="submit">Enviar</button>
+                        <p class="warnings" id="warnings"></p>
+                    </div>
+                </form>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
